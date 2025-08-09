@@ -4,10 +4,7 @@ export type SiteConfig = {
 	title: string;
 	subtitle: string;
 
-	lang:
-		| "en"
-		| "vi"
-
+	lang: "en" | "vi";
 
 	themeColor: {
 		hue: number;

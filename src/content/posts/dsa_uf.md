@@ -134,7 +134,7 @@ There are some LeetCode problems that I recommend you to practice, I provide my 
 
 **Solution**
 
-```python
+```java
 class Solution {
     public int[] findRedundantConnection(int[][] edges) {
         int n = edges.length;
@@ -250,7 +250,7 @@ class Solution {
 
 ### [685. Redundant Connection II (Hard)](https://leetcode.com/problems/redundant-connection-ii/description/)
 
-```python
+```java
 class Solution {
     public int[] findRedundantDirectedConnection(int[][] edges) {
         int n = edges.length;
@@ -330,7 +330,7 @@ class Solution {
 
 ### [1319. Number of Operations to Make Network Connected (Med)](https://leetcode.com/problems/number-of-operations-to-make-network-connected/description/)
 
-```python
+```java
 class Solution {
     public int makeConnected(int n, int[][] conn) {
         UF uf = new UF(n);
@@ -449,7 +449,7 @@ class Solution {
 
 ### [1579. Remove Max Number of Edges to Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/description/)
 
-```python
+```java
 class Solution {
     public int maxNumEdgesToRemove(int n, int[][] edges) {
         UF a = new UF(n), b = new UF(n);

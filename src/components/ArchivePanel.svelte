@@ -74,10 +74,10 @@ onMount(async () => {
 		{} as Record<number, Post[]>,
 	);
 
-	const groupedPostsArray = Object.keys(grouped).map((yearStr) => ({
-		year: Number.parseInt(yearStr),
-		posts: grouped[Number.parseInt(yearStr)],
-	}));
+    const groupedPostsArray = Object.keys(grouped).map((yearStr) => ({
+        year: Number.parseInt(yearStr, 10),
+        posts: grouped[Number.parseInt(yearStr, 10)],
+    }));
 
 	groupedPostsArray.sort((a, b) => b.year - a.year);
 
